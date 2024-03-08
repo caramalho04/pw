@@ -1,0 +1,10 @@
+PW
+
+html - browser
+css - browser
+php - linguagem interpretaçao que corre no servidor
+localhost ou 127.0.0.1
+bootstrap - framework CSS
+webservices ou api
+github - repositrio versionamento colaboração
+containers docker

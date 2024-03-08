@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+button { 
+    font-size: 20px;
+    text-align: top right;
+}
+
+#login {
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #00d91d; /* Cor de fundo (azul) */
+    color: #FFFFFF; /* Cor do texto (branco) */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    margin: 10px; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove sublinhado do link */
+    position: absolute;
+    top: 10px;
+    right: 110px;
+}
+
+#register{
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #00d91d; /* Cor de fundo (azul) */
+    color: #FFFFFF; /* Cor do texto (branco) */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    margin: 10px; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove sublinhado do link */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#back {
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: #00d91d; /* Cor de fundo (azul) */
+    color: #FFFFFF; /* Cor do texto (branco) */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    margin: 10px; /* Espaçamento entre os botões */
+    text-decoration: none; /* Remove sublinhado do link */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

@@ -1,5 +1,9 @@
-body{
-    text-align: center;
+body{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: #FFFFFF;
+    overflow-x: hidden;
+    
 }
 
 h1{
@@ -11,13 +15,24 @@ h2{
     font-size: 40px;
     text-align: center;
     border-style: solid;
-    border-color: black;
+    border-color: #000000;
 
+}
+
+.container
+{
+    width: 50%;
+    margin: 0 auto;
+}
+.justify{
+    text-align: justify;
+    width: 3000px;
+    white-space: normal;
 }
 
 p{
     font-size: 20px;
-    text-align: center;
+    
 }
 
 button { 
@@ -28,8 +43,8 @@ button {
 #login {
     padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
     font-size: 16px; /* Tamanho da fonte */
-    background-color: #00d91d; /* Cor de fundo (azul) */
-    color: #FFFFFF; /* Cor do texto (branco) */
+    background-color: white; /* Cor de fundo (dourado) */
+    color: black; /* Cor do texto (branco) */
     border: none; /* Remove a borda */
     border-radius: 5px; /* Cantos arredondados */
     margin: 10px; /* Espaçamento entre os botões */
@@ -42,8 +57,8 @@ button {
 #register{
     padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
     font-size: 16px; /* Tamanho da fonte */
-    background-color: #00d91d; /* Cor de fundo (azul) */
-    color: #FFFFFF; /* Cor do texto (branco) */
+    background-color: white; /* Cor de fundo (azul) */
+    color: BLACK; /* Cor do texto (branco) */
     border: none; /* Remove a borda */
     border-radius: 5px; /* Cantos arredondados */
     margin: 10px; /* Espaçamento entre os botões */
@@ -56,7 +71,7 @@ button {
 #back {
     padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
     font-size: 16px; /* Tamanho da fonte */
-    background-color: #00d91d; /* Cor de fundo (azul) */
+    background-color: white; /* Cor de fundo (azul) */
     color: #FFFFFF; /* Cor do texto (branco) */
     border: none; /* Remove a borda */
     border-radius: 5px; /* Cantos arredondados */
@@ -65,4 +80,40 @@ button {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    background-color: #111;
+  }
+
+#login-link{
+  float: right;
+  margin-left: 1310px;
 }

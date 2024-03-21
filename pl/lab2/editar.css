@@ -1,0 +1,43 @@
+
+        .botao1{
+            text-align: left;
+        }
+        .caixa{
+            text-align: center;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .imagem {
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+        }
+        input[type="text" ],input[type="email"]{
+            padding: 10px; /* Preenchimento interno */
+            border: 2px solid #ccc; /* Borda com cor cinza */
+            border-radius: 5px; /* Bordas arredondadas */
+            font-size: 11px; /* Tamanho da fonte */
+            color: #333; /* Cor do texto */
+            outline: none; /
+        }
+        input[type="text"]:focus,input[type="email"]:focus {
+            border-color: #007bff; /* Altera a cor da borda ao focar */
+        }
+
+        body{
+            background-color: aliceblue;
+        }
